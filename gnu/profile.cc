@@ -12,5 +12,6 @@ Profile::Profile() { }
 Profile::~Profile() { }
 
 void Profile::describe() {
-  cout << "Gnu profiles...." << endl;
+  cout << "Gnu profiles...." << endl;  
+  cout << "Gnu profiles found" << endl;
 }
