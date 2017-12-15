@@ -11,5 +11,6 @@ cc_library (
    name = "profile_impl",
    srcs = ["profile.cc"],
    hdrs = ["profile.h"],
-   visibility = ["//visibility:public"]
+   visibility = ["//visibility:public"],
+   includes = ["profile.h"]
 )
